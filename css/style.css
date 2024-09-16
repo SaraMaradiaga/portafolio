@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face{
+	font-family: 'Roboto';
+	src: url("file:///C:/Users/saram/Downloads/Portafolio/Portafolio/fonts/Roboto-Regular.ttf") format('truetype');
+}
+
+
+
+
+:root{
+	--color-hover-menu:#222e50;
+	--fondo-header:#007991;
+	--fondo-footer: #439a86;
+	--letra-footer: #bababa;
+	--color-general: #bcd8c1;
+	--color-titulo: #000;
+	--fondo-card: #007991;
+	--fondo-tarjeta: #136f63;
+	--fondo-t: #23967f;
+	--fondo-counter: #010101;
+	--color-azul: #222e50;
+	--color-or:#f34213;
+}
+body{
+	font-family: "Roboto";
+	font-size: 14px;
+	
+}
+header{
+	background-color: var(--fondo-header);
+	padding: 10px 0;
+}
+footer{
+	
+	background-color: var(--fondo-footer);
+	color: var(--letra-footer);
+	padding: 15px 0;
+	text-align: center;
+}
+#acerca{
+	padding: 30px 0;
+}
+
+#counter{
+	background-color: var(--fondo-counter);
+	color: #fff;
+	text-align: center;
+	padding: 10px 0px 15px 0px;
+}
+
+
+h5{
+	color: var(--color-azul);
+}
+
+h2{
+	text-align: center;
+	font-size: 40px;
+}
+h1{
+	font-size: 50px;
+	color: var(--color-or);
+}
+
+.card{
+	background-color: var(--fondo-card);
+	color: #fff;
+	text-align: center;
+	padding: 60px 30px;
+}
+
+.tarjeta{
+	background-color: var(--fondo-tarjeta);
+	color: #fff;
+	text-align: center;
+	padding: 60px 30px;
+	border-radius: 5px;
+}
+
+#pic{
+	text-align: center;
+}	
+#foto1{
+	text-align: center;
+}
+
+.t{
+	background-color: var(--fondo-t);
+	color: #fff;
+	text-align: center;
+	padding: 60px 30px;
+	border-radius: 5px;
+}
+
+.iconos i{
+	background-color: var(--color-azul);
+	font-size: 30px;
+	padding: 25px;
+	border-radius: 50px;
+	border: solid #fff 4px;
+}
+
+#contacto{
+	
+text-align: justify;
+	padding: 50px 0;
+	align-content: center;
+}
+
+
+.form{
+	padding: 40px 25px;
+	background-color: var(--color-or);
+	align-content: center;
+	padding-bottom: 5px;
+}
+
+
+.form-control{
+	background-color:#fff;
+	border: dotted;
+	padding: 20px;
+	
+	
+}
+.form-control::placeholder{
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
